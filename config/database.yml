@@ -26,7 +26,7 @@ default: &default
 
 development:
   <<: *default
-  database: t3_development
+  database: socialApp_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -56,8 +56,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database:  t3_test
+  database:  socialApp_test
 
 production:
   <<: *default
-  database: t3_prod
+  database: socialApp_prod
