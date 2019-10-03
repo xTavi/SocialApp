@@ -67,3 +67,5 @@ gem 'bootstrap-sass', '~> 3.4.1'
 gem 'devise'
 
 gem 'bootstrap_form'
+
+gem 'pry', '~> 0.12.2'
