@@ -62,6 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
+
 gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'devise'
@@ -69,3 +70,15 @@ gem 'devise'
 gem 'bootstrap_form'
 
 gem 'pry', '~> 0.12.2'
+
+gem 'rspec-rails', '~> 3.6'
+
+gem 'factory_girl_rails'
+
+gem 'rails-controller-testing'
+
+gem 'headless'
+
+gem 'poltergeist'
+
+gem 'database_cleaner'
